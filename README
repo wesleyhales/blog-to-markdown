@@ -1,0 +1,11 @@
+
+This is a simple script to parse an RSS 2.0 feed and convert it to markdown for usage in Awestruct. It was built for a blog hosted on jroller.com. The XML was pulled from the admin panel in feedburner. So if you run your RSS through feedburner, this should be compatible with any RSS 2.0 feed.
+
+install the following:
+$>sudo cpan
+$>install XML::XPath
+$>install Date::Formatter
+$>install Date::Manip
+
+from the command line you can then run:
+$> perl blog-to-markdown.pl blog.xml <- or whatever you named the xml file from your blog RSS feed. I included mine as an example.
